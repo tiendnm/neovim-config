@@ -4,7 +4,10 @@ return {
 		config = true,
 		cmd = "ToggleTerm",
 		build = ":ToggleTerm",
-		keys = { { "<F4>", "<cmd>ToggleTerm<cr>", desc = "Toggle floating terminal" } },
+		keys = {
+			--			{ "<F4>", "<cmd>ToggleTerm<cr>", desc = "Toggle floating terminal" },
+			{ "<leader>tt", "<cmd>ToggleTerm<CR>", desc = "Toggle floating terminal" },
+		},
 		opts = {
 			open_mapping = [[<F4>]],
 			direction = "horizontal",

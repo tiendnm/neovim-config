@@ -31,8 +31,9 @@ return {
 				"cssls",
 				"tailwindcss",
 				"lua_ls",
-				"clangd",
 				"emmet_ls",
+				"clangd",
+				"csharp_ls",
 			},
 		})
 
@@ -41,7 +42,8 @@ return {
 				"prettier", -- prettier formatter
 				"stylua", -- lua formatter
 				"eslint_d", -- js linter
-				"clangd",
+				"clang-format",
+				"csharpier",
 			},
 		})
 	end,
